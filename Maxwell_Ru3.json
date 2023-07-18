@@ -1,0 +1,71 @@
+{
+    "id": "mmm",
+    "title": "Maxwell's Manual of Malicious Maladies",
+    "description": "208 травм различной степени тяжести, продолжительности и последствий, основанных на 13 различных типах повреждений.",
+    "version": "1.1.Ru1",
+    "authors": [
+        {
+            "name": "theripper93",
+            "email": "tsplab@gmail.com",
+            "url": "https://www.patreon.com/theripper93"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "scripts": [
+        "scripts/main.js",
+        "scripts/config.js",
+        "scripts/module.js"
+    ],
+    "styles": [
+        "styles/module.css"
+    ],
+    "packs": [
+        {
+            "name": "mmmm",
+            "label": "Maxwell's Manual of Malicious Maladies Tables",
+            "path": "packs/tables.db",
+            "type": "RollTable",
+            "private": false
+        },
+        {
+            "name": "mmmmi",
+            "label": "Maxwell's Manual of Malicious Maladies Items",
+            "path": "packs/items.db",
+            "type": "Item",
+            "private": false,
+            "system": "dnd5e"
+        },
+        {
+            "name": "mmmmj",
+            "label": "Maxwell's Manual of Malicious Maladies",
+            "path": "packs/journals.db",
+            "type": "JournalEntry",
+            "private": false
+        }
+    ],
+    "url": "https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies",
+    "manifest": "https://github.com/theripper93/Maxwell-s-Manual-of-Malicious-Maladies/releases/latest/download/module.json",
+    "download": "https://github.com/dndMadMNML/hd/releases/download/foundry/Maxwell_Ru3.zip",
+    "socket": true,
+    "relationships": {
+        "requires": [
+            {
+                "id": "socketlib",
+                "type": "module",
+                "compatibility": {}
+            }
+        ]
+    },
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "name": "mmm",
+    "minimumCoreVersion": "10"
+}
